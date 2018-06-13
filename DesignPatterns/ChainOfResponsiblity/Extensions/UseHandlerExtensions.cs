@@ -21,7 +21,7 @@ namespace DesignPatterns.ChainOfResponsiblity.Extensions
                 return UseHandlerInterface(pipeline, handler);
             }
 
-            throw new NotImplementedException("Can only handle intereface");
+            throw new NotImplementedException("Can only handle intereface for now");
         }
 
         private static IPipeLineBuilder UseHandlerInterface(IPipeLineBuilder pipeline, Type handler)
